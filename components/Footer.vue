@@ -1,4 +1,6 @@
 <template>
+  <!-- フッター -->
+  <!-- TODO: グローバルコンポーネントにしない?要確認 -->
   <footer class="footer">
     <ul class="lists">
       <li class="list">

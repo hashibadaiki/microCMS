@@ -1,4 +1,7 @@
 <template>
+  <!-- パンクズリスト。pageからpropsでカテゴリを受け取る -->
+  <!-- v-ifでtopPageかどうかで出しわけを判定している -->
+  <!-- 現在は2階層のみ対応。階層増える場合は修正が必要 -->
   <ul class="breadcrumb">
     <li class="breadcrumbList">
       <nuxt-link to="/">記事一覧</nuxt-link>

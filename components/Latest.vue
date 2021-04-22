@@ -1,4 +1,6 @@
 <template>
+  <!-- blog下部に表示されるコンポーネント -->
+  <!-- TODO: 何件まで表示されるか確認する -->
   <div class="wrapper">
     <h1 class="pageTitle">最新の記事</h1>
     <ul>

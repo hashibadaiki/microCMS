@@ -1,5 +1,7 @@
 <template>
   <div class="wrapper">
+    <!-- バナーデータがある場合に表示 -->
+    <!-- webP対応も簡単にできそう -->
     <a
       v-if="banner && banner.image"
       :href="`${banner.url}?utm_source=CTA&utm_medium=content-text&utm_campaign=${id}-03`"

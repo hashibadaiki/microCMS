@@ -1,4 +1,5 @@
 <template>
+  <!-- TODO: どこで使用するか確認する -->
   <div>
     <span v-if="category" class="category">{{ category.name }}</span>
     <div class="meta">

@@ -1,4 +1,5 @@
 <template>
+  <!-- TODO: どこで使用するか確認する -->
   <svg
     class="NuxtLogo"
     width="245"

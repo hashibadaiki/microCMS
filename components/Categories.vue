@@ -1,4 +1,5 @@
 <template>
+  <!-- 恐らくカテゴリータグの共通コンポーネント -->
   <div class="wrapper">
     <h1 class="pageTitle">カテゴリー</h1>
     <ul>

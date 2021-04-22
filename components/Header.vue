@@ -1,4 +1,6 @@
 <template>
+  <!-- ヘッダー -->
+  <!-- TODO: グローバルコンポーネントにしない?要確認 -->
   <div>
     <header class="header">
       <h1 class="logo">
@@ -46,6 +48,7 @@
 export default {
   data() {
     return {
+      // TODO: paramsが何か確認する
       params: this.params || '',
       open: false,
     };
