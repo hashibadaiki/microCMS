@@ -1,4 +1,6 @@
 <template>
+  <!-- 目次のコンポーネント。設置した場合は表示される -->
+  <!-- TODO: どうやってtitleをパースしてるか確認する -->
   <div v-if="visible" class="wrapper">
     <h4 class="title">目次</h4>
     <ul class="lists">

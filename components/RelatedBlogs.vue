@@ -1,4 +1,6 @@
 <template>
+  <!-- 関連記事のコンポーネント -->
+  <!-- TODO: これがどこに出てくるか確認する -->
   <div class="wrapper">
     <h2 class="pageTitle">関連記事</h2>
     <ul class="lists">

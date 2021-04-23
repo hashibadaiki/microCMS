@@ -1,4 +1,5 @@
 <template>
+  <!-- TODO: これが何か調べる -->
   <div class="post" v-html="body"></div>
 </template>
 

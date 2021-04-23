@@ -1,4 +1,7 @@
 <template>
+  <!-- パートナーという概念のコンポーネント -->
+  <!-- TODO: 修正後のサイトでは恐らく削除 -->
+  <!-- TODO: webP lazyloadはどうやって対応してるのか確認する -->
   <div class="wrapper">
     <div v-if="partner" class="container">
       <picture v-if="partner.logo">

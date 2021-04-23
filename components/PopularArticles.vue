@@ -1,4 +1,6 @@
 <template>
+  <!-- 人気の記事。現状は固定表示 -->
+  <!-- TODO: default: () => [] これが何か調べる -->
   <div class="wrapper">
     <h1 class="pageTitle">人気の記事</h1>
     <ul>

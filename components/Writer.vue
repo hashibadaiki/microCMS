@@ -1,4 +1,5 @@
 <template>
+  <!-- 自己紹介のコンポーネント -->
   <div class="wrapper">
     <h2 class="title">ABOUT ME</h2>
     <div class="container">

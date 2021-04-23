@@ -1,4 +1,6 @@
 <template>
+  <!-- 検索用formらしきもの -->
+  <!-- TODO: 本番ではタスクとして置いてもよさそう -->
   <label class="label">
     サイト内検索
     <input
