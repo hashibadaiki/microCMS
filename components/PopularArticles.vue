@@ -1,6 +1,6 @@
 <template>
   <!-- 人気の記事。現状は固定表示 -->
-  <!-- TODO: default: () => [] これが何か調べる -->
+  <!-- default: () => [] propsのdefault値指定。配列を返す関数を指定 -->
   <div class="wrapper">
     <h1 class="pageTitle">人気の記事</h1>
     <ul>

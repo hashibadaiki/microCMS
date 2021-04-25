@@ -1,6 +1,7 @@
 <template>
   <!-- 関連記事のコンポーネント -->
-  <!-- TODO: これがどこに出てくるか確認する -->
+  <!-- CMSの方で最大件数に制限をかけた方が良い -->
+  <!-- 制限かけれない場合は表示で足切る?? -->
   <div class="wrapper">
     <h2 class="pageTitle">関連記事</h2>
     <ul class="lists">

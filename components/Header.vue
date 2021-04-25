@@ -55,6 +55,7 @@ export default {
   },
   mounted() {
     this.params = location.search || '';
+    console.log(this.params, 'params');
   },
   methods: {
     setOpen(value) {

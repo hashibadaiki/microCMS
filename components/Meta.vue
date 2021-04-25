@@ -1,5 +1,6 @@
 <template>
-  <!-- TODO: どこで使用するか確認する -->
+  <!-- 各ページのmeta data挿入用のコンポーネント -->
+  <!-- TODO: 本番のblogに合わせて修正する -->
   <div>
     <span v-if="category" class="category">{{ category.name }}</span>
     <div class="meta">

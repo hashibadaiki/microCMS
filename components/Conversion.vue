@@ -1,6 +1,6 @@
 <template>
   <!-- プロモーション用のコンポーネント -->
-  <!-- TODO: 削除する -->
+  <!-- TODO: 使用しない場合は削除する -->
   <div class="wrapper">
     <h2 class="pageTitle">microCMSとは</h2>
     <ol class="lists">

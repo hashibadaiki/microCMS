@@ -1,7 +1,10 @@
 <template>
   <!-- パートナーという概念のコンポーネント -->
+  <!-- webP →typeで指定してるだけ。nuxtのpluginで一括変換とかはあるもよう↓ -->
+  <!-- http://portaltan.hatenablog.com/entry/2019/03/28/173708 -->
+  <!-- lazyload →これは色々設定方法あるみたい。今回はこれ↓ -->
+  <!-- https://cluster-seo.com/blog/lazy-load-javascript-library.html -->
   <!-- TODO: 修正後のサイトでは恐らく削除 -->
-  <!-- TODO: webP lazyloadはどうやって対応してるのか確認する -->
   <div class="wrapper">
     <div v-if="partner" class="container">
       <picture v-if="partner.logo">

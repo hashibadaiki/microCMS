@@ -1,5 +1,6 @@
 <template>
-  <!-- TODO: これが何か調べる -->
+  <!-- TODO: 下書き実装後にpost = 投稿ができるか確認する -->
+  <!-- おそらく下書き時pageに投稿の処理を入れてるだけなので、不要であれば削除する -->
   <div class="post" v-html="body"></div>
 </template>
 

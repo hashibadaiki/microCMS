@@ -1,5 +1,5 @@
 <template>
-  <!-- TODO: どこで使用するか確認する -->
+  <!-- TODO: 使用していない。README同様自動で配置されていそう。削除する -->
   <svg
     class="NuxtLogo"
     width="245"
