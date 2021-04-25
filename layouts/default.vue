@@ -1,4 +1,5 @@
 <template>
+  <!-- グローバルコンポーネント。headerとかfooter入れる -->
   <div>
     <nuxt />
   </div>

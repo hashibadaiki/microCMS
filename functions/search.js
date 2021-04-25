@@ -3,6 +3,10 @@ import api from '../instance/axios';
 
 dotenv.config();
 
+// 検索機能使用時に使う関数っぽい
+// 利用する際は要確認
+// TODO: 実際に機能として動かす
+
 // eslint-disable-next-line require-await
 export async function handler(event) {
   const { q } = event.queryStringParameters;

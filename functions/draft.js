@@ -3,6 +3,10 @@ import api from '../instance/axios';
 
 dotenv.config();
 
+// 下書き/プレビュー時に使用する関数っぽい
+// 実装する場合は確認する
+// TODO: 実際に機能として動かす
+
 // eslint-disable-next-line require-await
 export async function handler(event) {
   const { id, draftKey } = event.queryStringParameters;

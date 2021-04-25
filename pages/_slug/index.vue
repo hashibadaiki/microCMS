@@ -1,4 +1,5 @@
 <template>
+  <!-- これも何かは不明。 TODO: 要確認 -->
   <div class="wrapper">
     <Header />
     <div class="divider">
